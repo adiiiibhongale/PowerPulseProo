@@ -436,7 +436,7 @@ const ConsumerLogin = () => {
     
     try {
       // Backend API endpoint
-      const API_BASE_URL = 'http://localhost:5000/api';
+      const API_BASE_URL = 'https://powerpulseproo-api.onrender.com/api';
       
       // Login request with consumer number
       const loginResponse = await axios.post(`${API_BASE_URL}/auth/consumer/login`, {

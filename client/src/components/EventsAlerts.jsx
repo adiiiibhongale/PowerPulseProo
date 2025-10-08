@@ -218,7 +218,7 @@ export default function EventsAlerts(){
 		return ()=> window.removeEventListener('device-config-updated', handler);
 	},[]);
 
-	const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+	const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://powerpulseproo-api.onrender.com';
 	const SHOW_DIAGNOSTICS = import.meta.env.VITE_SHOW_EVENT_DIAGNOSTICS === 'true';
 	const SHOW_LIVE_TOGGLE = import.meta.env.VITE_SHOW_LIVE_TOGGLE === 'true';
 	const SHOW_ACK_SELECTED = import.meta.env.VITE_SHOW_ACK_SELECTED === 'true';
